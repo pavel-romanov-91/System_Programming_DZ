@@ -20,15 +20,13 @@ namespace Modul_4_Mutexes
         }
     }
 
-    // В этом классе содержится общий ресурс в виде переменной Count, а так же мьютекс mtx
+    // В этом классе содержится общий виде переменной Count, а так же мьютекс mtx
     
     class SharedRes
     {
         public static int Count;
         public static Mutex mtx = new Mutex();
     }
-
-    // В этом классе Count инкрементируется
     class IncThread
     {
         int num;
@@ -46,7 +44,7 @@ namespace Modul_4_Mutexes
         {
             Console.WriteLine(Thrd.Name + " ожидает мьютекс");
 
-            // Получить мьютекс
+            // Получаем мьютекс
             SharedRes.mtx.WaitOne();
             Console.WriteLine(Thrd.Name + " получает мьютекс");
             do
@@ -76,7 +74,7 @@ namespace Modul_4_Mutexes
         void Run()
         {
             Console.WriteLine(Thrd.Name + " ожидает мьютекс");
-            // Получить мьютекс
+            // Получаем мьютекс
             SharedRes.mtx.WaitOne();
             Console.WriteLine(Thrd.Name + " получает мьютекс");
             do
