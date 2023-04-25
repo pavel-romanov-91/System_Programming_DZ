@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading_and_asynchro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_4_Mutexes", "Modul_4_Mutexes\Modul_4_Mutexes.csproj", "{95B74196-86E9-4184-B3FF-0659E71C6E05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_4_Semaphores", "Modul_4_Semaphores\Modul_4_Semaphores.csproj", "{55469DB3-B3FE-49F1-B613-BF115CFD78FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{95B74196-86E9-4184-B3FF-0659E71C6E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95B74196-86E9-4184-B3FF-0659E71C6E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95B74196-86E9-4184-B3FF-0659E71C6E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55469DB3-B3FE-49F1-B613-BF115CFD78FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55469DB3-B3FE-49F1-B613-BF115CFD78FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55469DB3-B3FE-49F1-B613-BF115CFD78FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55469DB3-B3FE-49F1-B613-BF115CFD78FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
