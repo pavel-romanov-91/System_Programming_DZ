@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_4_Semaphores", "Modul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_5_part_1", "Modul_5_part_1\Modul_5_part_1.csproj", "{D88D14FC-4674-4F94-A2BC-76CE9BD983FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul_3_part_2", "Modul_3_part_2\Modul_3_part_2.csproj", "{CF2264AA-CF91-4954-A5C6-355F4A02C838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D88D14FC-4674-4F94-A2BC-76CE9BD983FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D88D14FC-4674-4F94-A2BC-76CE9BD983FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D88D14FC-4674-4F94-A2BC-76CE9BD983FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2264AA-CF91-4954-A5C6-355F4A02C838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2264AA-CF91-4954-A5C6-355F4A02C838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2264AA-CF91-4954-A5C6-355F4A02C838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2264AA-CF91-4954-A5C6-355F4A02C838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
