@@ -15,14 +15,10 @@ namespace Modul_3_part_2
         static void Main(string[] args)
         {
             string[] directory = Directory.GetFiles(@"E:\Работа", "*.txt");
-
-
             Console.WriteLine("input number of threads");
             int threads = int.Parse(Console.ReadLine());
             streams.StreamsStart(threads, directory);
-            // endofprogram
             Console.ReadKey();
-
         }
     }
     class streams
@@ -41,7 +37,6 @@ namespace Modul_3_part_2
                     filesCount--;
                 }
             }
-
             //если количество файлов меньше, чем потоков - потоки делим между файлами, 
             //вначале раздаём всем файлам по 1 потоку
             //потом снова всем (или кому хватит) по 1 потоку и т.д. 
@@ -95,9 +90,7 @@ namespace Modul_3_part_2
                 }
             }
         }
-
         private static readonly object syncRoot = new object();
-
         static void ReadFiles(int thread, string fileName)
         {
             lock (syncRoot)
